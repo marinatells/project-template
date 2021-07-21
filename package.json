@@ -1,0 +1,50 @@
+{
+  "name": "project-template",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack",
+    "lint": "eslint --ext .jsx,.js app",
+    "lint:fix": "eslint --fix --ext .jsx,.js app",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "author": "Marina Titova",
+  "license": "ISC",
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.17",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-transform-runtime": "^7.13.10",
+    "@babel/preset-env": "^7.13.8",
+    "@babel/preset-react": "^7.12.13",
+    "@storybook/addon-actions": "^6.3.4",
+    "@storybook/addon-essentials": "^6.3.4",
+    "@storybook/addon-links": "^6.3.4",
+    "@storybook/react": "^6.3.4",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
+    "dotenv-webpack": "^6.0.4",
+    "eslint": "^7.23.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "html-webpack-plugin": "^5.2.0",
+    "style-loader": "^3.2.1",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.23.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
